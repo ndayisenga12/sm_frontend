@@ -1,0 +1,204 @@
+/* Styles for Header */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header nav ul li a:hover {
+  color: #6450e6;}
+
+/* Styles for Footer */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styles for HomePage */
+
+.home-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-page h2 {
+  font-size: 24px;
+}
+
+.home-page button {
+  background-color: #6450e6;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.home-page .buttons button:hover {
+  background-color: #645959;
+}
+
+/* Styles for LoginPage & SignupPage */
+
+.login-page,
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-page form,
+.signup-page form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-page h2,
+.signup-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-page label,
+.signup-page label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-page input,
+.signup-page input {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.login-page button,
+.signup-page button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-page button:hover,
+.signup-page button:hover {
+  background-color: #333;
+}
+
+
+/* Styles for EnrollmentPage */
+.enrollment-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.enrollment-page h2 {
+  font-size: 24px;
+}
+
+.enrollment-page form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.enrollment-page label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.enrollment-page input {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.enrollment-page button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for AboutPage */
+.about-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-page h2 {
+  font-size: 24px;
+}
+
+.about-page p {
+  margin-bottom: 20px;
+}
+
+/* Styles for ContactPage */
+.contact-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-page h2 {
+  font-size: 24px;  
+}
+
+.contact-page p {
+  margin-bottom: 10px;
+}
+
+/* Styles for CoursesPage */
+.courses-page {
+  margin-top: 50px;
+}
+
+.courses-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.courses-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.courses-page li {
+  margin-bottom: 10px;
+}
+
+.courses-page li:before {
+  content: "• ";
+  color: #007bff;
+}
